@@ -2,7 +2,7 @@ body{
     background:white;
 }
 .container{
-    max-width: 1200px;
+    width: 80%;
     margin: auto;
 }
 .navbar{
@@ -22,4 +22,66 @@ body{
     height: 100px;
     border-radius: 2px;
 }
-.nav span
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.navIcon{
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.couleur{
+    color: rgb(225, 154, 11);
+}
+#unique{
+    color: rgb(87, 144, 243);
+    font-weight: bold;
+}
+.contenue{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    width: 50%;
+    text-align: left;
+    justify-content: space-between;
+}
+.text p{
+    line-height: 30px;
+}
+.image{
+    width: 40%;
+}
+.image img{
+    width: 100%;
+    height: 60%;
+    border-radius: 2px  2px 2px 90px
+}
+.my-button{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+}
+.my-button button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+#hire{
+    background: rgb(87, 144, 243);
+    box-shadow: 2px 2px 10px rgb(87, 144, 243);
+    cursor: pointer;
+}
+#one{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid rgb(87, 144, 243);
+    color: rgb(87, 144, 243);
+    box-shadow: 2px 2px 10px rgb(87, 144, 243);
+}
