@@ -1,0 +1,25 @@
+body{
+    background:white;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar{
+   
+    margin: 0%;
+    padding: 20px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+}
+.nav span
